@@ -37,7 +37,7 @@ a aop extension Framework for WebViewJavascriptBridge.Modify close,extend open.
   #   'JTSWebViewBridge' => ['JTSWebViewBridge/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'JTSWebViewBridge/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'WebViewJavascriptBridge'
 end
