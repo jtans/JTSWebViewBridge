@@ -7,15 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#if __has_include(<JTSWebViewBridge/JTSWebViewJSHandler.h>)
-#else
-#import "JTSWebViewJSHandler.h>"
-#endif
+#import <JTSWebViewBridge/JTSWebViewJSHandler.h>
 
 @interface ShowMessageHandler : JTSWebViewJSHandler
 
 - (void)testObjcCallback:(JTSWebViewJSHandlerParameter *)param;
 
-- (void)showMsg:(PPWebViewJSHandlerParameter *)param;
+- (void)showMsg:(JTSWebViewJSHandlerParameter *)param;
 
 @end

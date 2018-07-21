@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JTSWebViewBridge: 513ac9ef9c20f6c667bfc1f6b693b460a45a704e
+  JTSWebViewBridge: 1bfe9f854b83ceecf925c529d12153a40582d0b8
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
 PODFILE CHECKSUM: d1bee1d004b7e5846bfaf2c3d63a37d73820da32

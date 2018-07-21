@@ -15,9 +15,9 @@
     param.responseCallback(@{@"msg":@"iam from oc"});
 }
 
-- (void)showMsg:(PPWebViewJSHandlerParameter *)param {
+- (void)showMsg:(JTSWebViewJSHandlerParameter *)param {
     [[[UIAlertView alloc] initWithTitle:nil message:param.data delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:nil, nil] show];
-    param.responseCallback(@"啊哈哈");
+    param.responseCallback(@"send msg:hi to js");
 }
 
 @end

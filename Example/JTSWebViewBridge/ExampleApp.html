@@ -54,7 +54,13 @@
 				log('JS got response', response)
 			})
 		}
+                                 document.getElementById('showMsg').onclick = function (e){
+                                 e.preventDefault();
+                                 bridge.callHandler('showMsg', 'showMsg title', function(response) {
+                                                    log('JS got response', response)
+                                                    })
+                                 }
 	})
 	</script>
-	<div id='buttons'></div> <div id='log'></div>
+	<div id='buttons'><button id="showMsg">showMsg</button></div> <div id='log'></div>
 </body></html>

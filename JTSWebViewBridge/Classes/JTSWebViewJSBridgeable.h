@@ -7,9 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #if __has_include(<WebViewJavascriptBridge/WebViewJavascriptBridge.h>)
-#else
+#elif __has_include("WebViewJavascriptBridge.h")
 #import "WebViewJavascriptBridge.h"
+#endif
+
+#ifndef WebViewJavascriptBridge
+#import <WebViewJavascriptBridge/WebViewJavascriptBridge.h>
 #endif
 
 @protocol JTSWebViewJSBridgeable <NSObject>

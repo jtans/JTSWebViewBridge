@@ -8,7 +8,7 @@
 
 #import "ExampleUIWebViewController.h"
 #import "WebViewJavascriptBridge.h"
-#import "UIWebView+JSBridge.h"
+#import <JTSWebViewBridge/UIWebView+JTSBridge.h>
 
 @interface ExampleUIWebViewController ()
 @property WebViewJavascriptBridge* bridge;
