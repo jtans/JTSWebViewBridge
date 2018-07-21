@@ -1,0 +1,13 @@
+//
+//  JTSViewController.h
+//  JTSWebViewBridge
+//
+//  Created by jtans on 07/20/2018.
+//  Copyright (c) 2018 jtans. All rights reserved.
+//
+
+@import UIKit;
+
+@interface JTSViewController : UIViewController
+
+@end

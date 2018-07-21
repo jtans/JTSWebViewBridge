@@ -1,0 +1,19 @@
+PODS:
+  - JTSWebViewBridge (0.1.0):
+    - WebViewJavascriptBridge
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - JTSWebViewBridge (from `../`)
+
+EXTERNAL SOURCES:
+  JTSWebViewBridge:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JTSWebViewBridge: 513ac9ef9c20f6c667bfc1f6b693b460a45a704e
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: d1bee1d004b7e5846bfaf2c3d63a37d73820da32
+
+COCOAPODS: 1.3.1

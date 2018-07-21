@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'JTSWebViewBridge_Example' do
+  pod 'JTSWebViewBridge', :path => '../'
+  #pod 'WebViewJavascriptBridge'
+
+  target 'JTSWebViewBridge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
