@@ -20,6 +20,33 @@ it, simply add the following line to your Podfile:
 pod 'JTSWebViewBridge'
 ```
 
+## How to use
+1. See `Example`Project. Make class  ShowMessageHandler(named what you like) implement  `JTSWebViewJSHandler` 
+```objc
+
+#import <JTSWebViewBridge/JTSWebViewJSHandler.h>
+@interface ShowMessageHandler : JTSWebViewJSHandler
+
+- (void)testObjcCallback:(JTSWebViewJSHandlerParameter *)param;
+
+- (void)showMsg:(JTSWebViewJSHandlerParameter *)param;
+
+@end
+```
+
+2. add a plist to your project named `wvbridge.plist`
+``` xml
+<plist version="1.0">
+<dict>
+<key>ShowMessageHandler</key>
+<array>
+<string>testObjcCallback</string>
+<string>showMsg</string>
+</array>
+</dict>
+</plist>
+```
+
 ## Author
 
 jtans, jtans
